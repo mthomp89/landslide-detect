@@ -1,4 +1,4 @@
-![Banner](./landslide_project/pics/banner.png)
+![Banner](https://github.com/mthomp89/landslide-detect/blob/main/banner.png)
 
 # Mapping Landslide Activity in SAR Imagery
 > Purpose of this project is to evaluate the effectiveness of Synthetic Aperture Radar in mapping surface damage caused by landslides in reported locations. 
@@ -6,14 +6,12 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Data Sources](#technologies-used)
+* [Data Sources](#data-sources)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
+* [Contact](#project-contacts)
 * [License](#license)
 
 
@@ -31,9 +29,9 @@
 
 
 ## Screenshots
-![Nasa Global Landslide Catalog (NGLC) - North America](./landslide_project/pics/nglc_n_america.png)
-![Detecting changes in Sentinel-1 imagery](./landslide_project/pics/change_detect.png)
-![Here are 4 out of our 230 Verified Landslide Locations](./landslide_project/pics/4_locations.png)
+![Nasa Global Landslide Catalog (NGLC) - North America](https://github.com/mthomp89/landslide-detect/blob/main/nglc_n_america.png)
+![Detecting changes in Sentinel-1 imagery](https://github.com/mthomp89/landslide-detect/blob/main/change_detect.png)
+![Here are 4 out of our 230 Verified Landslide Locations](https://github.com/mthomp89/landslide-detect/blob/main/4_locations.png)
 
 
 ## Setup
