@@ -41,20 +41,22 @@
 - NGLC database access
 
 
-## Project Status
-Project is: _in progress_ 
+## Project Status and workflow
+Project is: _in progress_  
 
-<!-- ## Room for Improvement
+- Each week we meet on Tuesday to discuss progress on the project.
+- We have currently worked on a Google Colab Document but are moving our code to Jupyter notebook to have access Version Control on Git Hub.
+- We will be continuing a weekly-meeting setup throughout the sememster and into the summer.  
+
+## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- We can be better about communicating where we are at with our project with eachother, but version control will help with this. 
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
--->
+- Get our code to work for major verified landslide sites.
+- Continue to clean our code up to make it as reproducible as possible. 
 
 
 ## Acknowledgements
