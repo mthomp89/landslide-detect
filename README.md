@@ -40,7 +40,6 @@
 - Google Earth Engine account access
 - NGLC database access
 
-
 ## Project Status and workflow
 Project is: _in progress_  
 
@@ -48,16 +47,13 @@ Project is: _in progress_
 - We have currently worked on a Google Colab Document but are moving our code to Jupyter notebook to have access Version Control on Git Hub.
 - We will be continuing a weekly-meeting setup throughout the sememster and into the summer.  
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
+## Room for improvement
 - We can be better about communicating where we are at with our project with eachother, but version control will help with this. 
 
-To do:
+## To Do:
 - Get our code to work for major verified landslide sites.
 - Continue to clean our code up to make it as reproducible as possible. 
-
+- Discuss summer session plans
 
 ## Acknowledgements
 - This project was inspired by Dr. Elsa Culler, CU Boulder Earth Lab
