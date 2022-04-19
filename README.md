@@ -43,8 +43,10 @@
 ## Project Status and workflow
 Project is: _in progress_  
 
-- Each week we meet on Tuesday to discuss progress on the project.
+- Each week we meet on Tuesday to discuss progress on the project on zoom.
 - We have currently worked on a Google Colab Document but are moving our code to Jupyter notebook to have access Version Control on Git Hub.
+- This document will be our workspace as we continue to make edits and progress on our code.
+- Data is uploaded by .csv file through the verified landslide database that was provided to us.
 - We will be continuing a weekly-meeting setup throughout the sememster and into the summer.  
 
 ## Room for improvement
