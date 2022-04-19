@@ -47,6 +47,10 @@ Project is: _in progress_
 - We have currently worked on a Google Colab Document but are moving our code to Jupyter notebook to have access Version Control on Git Hub.
 - This document will be our workspace as we continue to make edits and progress on our code.
 - Data is uploaded by .csv file through the verified landslide database that was provided to us.
+- We are detecting changes in Sentinel-1 Imagery.
+- We will note changes, especially those due to land-change. The changes will show up as colored pixels.
+- We will be utilizing the a sequential omnibus change detection algorithm initially provided by Google Earth Engine to detect change.
+- The results we find from this sequential change detection using SAR imagery using GEE can then be interpreted, and future work will be determined when we get to them
 - We will be continuing a weekly-meeting setup throughout the sememster and into the summer.  
 
 ## Room for improvement
