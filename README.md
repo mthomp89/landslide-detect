@@ -35,7 +35,7 @@
 
 
 ## Setup
-- Project requirements/dependencies: <!-- insert environment.yml -->
+- Project requirements/dependencies: ![environment.yml](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml)
 - QGIS software
 - Google Earth Engine account access
 - NGLC database access
