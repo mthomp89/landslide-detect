@@ -45,7 +45,7 @@
 ## Screenshots
 ![Nasa Global Landslide Catalog (NGLC) - North America](https://github.com/mthomp89/landslide-detect/blob/main/doc/nglc_n_america.png)
 ![Detecting changes in Sentinel-1 imagery](https://github.com/mthomp89/landslide-detect/blob/main/doc/change_detect.png)
-![Here are 4 out of our 230 Verified Landslide Locations](https://github.com/mthomp89/landslide-detect/blob/main/doc/4_locations.png)
+![Here are our 230 Verified Landslide Locations](https://github.com/mthomp89/landslide-detect/blob/main/doc/VerifiedLocations.png)
 
 
 ## Setup
