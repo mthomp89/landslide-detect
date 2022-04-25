@@ -7,8 +7,9 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Data Sources](#data-sources)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
+* [Example Data](#example-data)
+* [Workflow](#workflow)
+* [Installation](#installation)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#project-contacts)
@@ -39,22 +40,24 @@
       Link: https://www.iceye.com/
       Info: ICEYE provides easy and flexible access to Earth observation data.
       Type: SAR data will be utilized. 
-      
 
 
-## Screenshots
+## Example Data
 ![Nasa Global Landslide Catalog (NGLC) - North America](https://github.com/mthomp89/landslide-detect/blob/main/doc/nglc_n_america.png)
 ![Detecting changes in Sentinel-1 imagery](https://github.com/mthomp89/landslide-detect/blob/main/doc/change_detect.png)
 ![Here are our 230 Verified Landslide Locations](https://github.com/mthomp89/landslide-detect/blob/main/doc/VerifiedLocations.png)
 
 
-## Setup
+## Workflow
+![Workflow](https://github.com/mthomp89/landslide-detect/blob/main/doc/workflow.png)
+
+## Installation 
 - Project requirements/dependencies: ![environment.yml](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml)
 - QGIS software
 - Google Earth Engine account access
 - NGLC database access
 
-## Project Status and workflow
+## Project Status
 Project is: _in progress_  
 
 - Each week we meet on Tuesday to discuss progress on the project on zoom.
