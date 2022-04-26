@@ -52,10 +52,9 @@
 ![Workflow](https://github.com/mthomp89/landslide-detect/blob/main/doc/workflow.png)
 
 ## Installation 
+Installation and usage of this repository requires an account on Google Earth Engine in order to access the Sentinel-1 data. As of 25 April, area of interests (AOIs) are ingested into the workflow through a json.load() function. The json files are located within the ./inputs path. The virtual environment is best constructed within an Anaconda Powershell prompt. To initiate the envrionment after forking the repository, open an Anaconda Powershell prompt, change the local directory path to the ./env path, then execute the command: "conda env create -f environment.yml"
 - Project requirements/dependencies: ![environment.yml](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml)
-- QGIS software
 - Google Earth Engine account access
-- NGLC database access
 
 ## Project Status
 Project is: _in progress_  
