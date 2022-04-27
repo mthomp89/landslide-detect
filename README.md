@@ -7,8 +7,9 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Data Sources](#data-sources)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
+* [Example Data](#example-data)
+* [Workflow](#workflow)
+* [Installation](#installation)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#project-contacts)
@@ -22,25 +23,40 @@
 
 
 ## Data Sources
-- [NASA Global Landslide Catalog (GLC)](https://data.nasa.gov/Earth-Science/Global-Landslide-Catalog/h9d8-neg4)
-- [Sentinel-1 SAR](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar)
-- [Capella Space Open Data Program](https://www.capellaspace.com/)
-- [ICEYE Open Data Program](https://www.iceye.com/)
+- [NASA Global Landslide Catalog (GLC)]
+      Link: https://data.nasa.gov/Earth-Science/Global-Landslide-Catalog/h9d8-neg4
+      Info: The GLC considers all types of mass movements triggered by rainfall, which have been reported in the media, disaster databases, scientific reports, or other sources. 
+      Type: Geospatial data can be downloaded as: KLM, KMZ, Shapefile or GeoJSON
+      
+- [Sentinel-1 SAR]
+      Link: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar
+      Info: SENTINEL-1 is an imaging radar mission providing continuous all-weather, day-and-night imagery at C-band.
+      Type: The SENTINEL-SAFE format wraps a folder containing image data in a binary data format and product metadata in XML. 
+- [Capella Space Open Data Program]
+      Link: https://www.capellaspace.com/
+      Info: Capella aims to provide the most frequent, timely and high-quality SAR imagery products available, accessible through an intuitive self-serve online platform.
+      Type: Capella Space uses Synthetic Aperture Radar (SAR) to capture and track small-scale movements on the surface of the Earth
+- [ICEYE Open Data Program]
+      Link: https://www.iceye.com/
+      Info: ICEYE provides easy and flexible access to Earth observation data.
+      Type: SAR data will be utilized. 
 
 
-## Screenshots
+## Example Data
 ![Nasa Global Landslide Catalog (NGLC) - North America](https://github.com/mthomp89/landslide-detect/blob/main/doc/nglc_n_america.png)
 ![Detecting changes in Sentinel-1 imagery](https://github.com/mthomp89/landslide-detect/blob/main/doc/change_detect.png)
-![Here are 4 out of our 230 Verified Landslide Locations](https://github.com/mthomp89/landslide-detect/blob/main/doc/4_locations.png)
+![Here are our 230 Verified Landslide Locations](https://github.com/mthomp89/landslide-detect/blob/main/doc/VerifiedLocations.png)
 
 
-## Setup
+## Workflow
+![Workflow](https://github.com/mthomp89/landslide-detect/blob/main/doc/workflow.png)
+
+## Installation 
+Installation and usage of this repository requires an account on Google Earth Engine in order to access the Sentinel-1 data. As of 25 April, area of interests (AOIs) are ingested into the workflow through a json.load() function. The json files are located within the ./inputs path. The virtual environment is best constructed within an Anaconda Powershell prompt. To initiate the envrionment after forking the repository, open an Anaconda Powershell prompt, change the local directory path to the ./env path, then execute the command: "conda env create -f environment.yml"
 - Project requirements/dependencies: ![environment.yml](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml)
-- QGIS software
 - Google Earth Engine account access
-- NGLC database access
 
-## Project Status and workflow
+## Project Status
 Project is: _in progress_  
 
 - Each week we meet on Tuesday to discuss progress on the project on zoom.
