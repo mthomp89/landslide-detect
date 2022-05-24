@@ -13,6 +13,7 @@
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#project-contacts)
+* [Citations](#citations)
 * [License](#license)
 
 
@@ -97,7 +98,7 @@ Project is: _in progress_
 - [@Mitch Thompson](mailto:mitchell.thompson-1@colorado.edu)
 - [@Elsa Culler](mailto:eculler@gmail.com)
 
-## Citations:
+## Citations
 - Our Github is currently private and we intend to keep it private until the end of the summer course. We will be linking Zenodo with our Git Hub repository to ensure that our code is visible and citable! 
 
 ## License
