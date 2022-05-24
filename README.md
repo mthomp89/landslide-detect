@@ -79,7 +79,7 @@ Project is: _in progress_
 - Get our code to work for major verified landslide sites.
 - Continue to clean our code up to make it as reproducible as possible. 
 - Recreate our current data frame to be a geodata frame. 
-- Dive deep into our function that creates a buffer around each verified center point of our landslides df. 
+- Dive deep into our function that creates a buffer around each verified center point of our landslides data frame. 
 
 
 ## Acknowledgements
