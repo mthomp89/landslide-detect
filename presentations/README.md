@@ -1,3 +1,5 @@
+# final-project-group-blog-post-landslide-detection
+final-project-group-blog-post-landslide-detection created by GitHub Classroom
 ![Banner](https://github.com/mthomp89/landslide-detect/blob/main/banner.png)
 
 # Mapping Landslide Activity in SAR Imagery
@@ -85,7 +87,6 @@ Project is: _in progress_
     - [Sentinel-1 SAR Amplitude Imagery for Rapid Landslide Detection](https://www.mdpi.com/2072-4292/11/7/760)
     - [Alaska Satellite Facility SAR Basics Tutorial](https://step.esa.int/docs/tutorials/S1TBX%20SAR%20Basics%20Tutorial.pdf) 
     - [This tutorial on detecting changes in Sentinel-1 imagery](https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-1)
-    - [A collection of 360+ Jupyter Python notebook examples for using Google Earth Engine with interactive mapping](https://github.com/giswqs/earthengine-py-notebooks)
 
 
 ## Project Contacts
