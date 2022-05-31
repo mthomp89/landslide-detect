@@ -1,7 +1,9 @@
+# final-project-group-blog-post-landslide-detection
+final-project-group-blog-post-landslide-detection created by GitHub Classroom
 ![Banner](https://github.com/mthomp89/landslide-detect/blob/main/banner.png)
 
 # Mapping Landslide Activity in SAR Imagery
-> Purpose of this project is to evaluate the effectiveness of Synthetic Aperture Radar in mapping surface damage caused by landslides in reported locations. We also intend for this project to help enhance the understanding of detecting, measuring, and visualizing landslide locations on a large scale. 
+> Purpose of this project is to evaluate the effectiveness of Synthetic Aperture Radar in mapping surface damage caused by landslides in reported locations. 
 
 
 ## Table of Contents
@@ -13,14 +15,13 @@
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#project-contacts)
-* [Citations](#citations)
 * [License](#license)
 
 
 ## General Information
 - This project is built upon a previously developed low-accuracy large spatial scale landslide database. Space-based SAR imagery will be utilized in order to improve the accuracy of landslide detection. This is a capstone project in the University of Colorado-Boulder Earth Analytics certifcation program. 
 - Predicting  landslides is challenging  due to the many variables that should be considered when trying to identify what triggered a landslide. There is a need to better identify landslide locations across a large spatial scale. Can combining a low-accuracy large spatial scale landslide database with SAR imagery  improve the accuracy of landslide detection across a global scale?
-- Utilize human-assisted, programmatic, and possibly machine learning methods to identify landslides from satellite imagery. We hope that this will bridge the gap with landslide event detection and future event prediction. 
+- utilize human-assisted, programmatic, and possibly machine learning methods to identify landslides from satellite imagery. We hope that this will bridge the gap with landslide event detection and future event prediction. 
 
 
 ## Data Sources
@@ -71,16 +72,12 @@ Project is: _in progress_
 - We will be continuing a weekly-meeting setup throughout the sememster and into the summer.  
 
 ## Room for improvement
-- Look into Google Earth Engine more and make sure we are leveraging all of their tools the best way that we can. 
-- Look at our code and really determine ways that it can be more "DRY". 
-- Start discussing our visions for the final product and how we would like our visuals to look. 
+- We can be better about communicating where we are at with our project with eachother, but version control will help with this. 
 
 ## To Do:
 - Get our code to work for major verified landslide sites.
 - Continue to clean our code up to make it as reproducible as possible. 
-- Recreate our current data frame to be a geodata frame. 
-- Dive deep into our function that creates a buffer around each verified center point of our landslides data frame. 
-
+- Discuss summer session plans
 
 ## Acknowledgements
 - This project was inspired by Dr. Elsa Culler, CU Boulder Earth Lab
@@ -90,7 +87,6 @@ Project is: _in progress_
     - [Sentinel-1 SAR Amplitude Imagery for Rapid Landslide Detection](https://www.mdpi.com/2072-4292/11/7/760)
     - [Alaska Satellite Facility SAR Basics Tutorial](https://step.esa.int/docs/tutorials/S1TBX%20SAR%20Basics%20Tutorial.pdf) 
     - [This tutorial on detecting changes in Sentinel-1 imagery](https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-1)
-    - [A collection of 360+ Jupyter Python notebook examples for using Google Earth Engine with interactive mapping](https://github.com/giswqs/earthengine-py-notebooks)
 
 
 ## Project Contacts
@@ -98,8 +94,6 @@ Project is: _in progress_
 - [@Mitch Thompson](mailto:mitchell.thompson-1@colorado.edu)
 - [@Elsa Culler](mailto:eculler@gmail.com)
 
-## Citations
-- Our Github is currently private and we intend to keep it private until the end of the summer course. We will be linking Zenodo with our Git Hub repository to ensure that our code is visible and citable! 
 
 ## License
 This project is open source and available under the [Apache License 2.0](https://github.com/mthomp89/landslide-detect/blob/main/LICENSE).
