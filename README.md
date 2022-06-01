@@ -10,6 +10,7 @@
 * [Example Data](#example-data)
 * [Workflow](#workflow)
 * [Installation](#installation)
+* [Running the Workflow](#running-the-workflow)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#project-contacts)
@@ -53,9 +54,12 @@
 ![Workflow](https://github.com/mthomp89/landslide-detect/blob/main/doc/workflow.png)
 
 ## Installation 
-Installation and usage of this repository requires an account on Google Earth Engine in order to access the Sentinel-1 data. As of 25 April, area of interests (AOIs) are ingested into the workflow through a json.load() function. The json files are located within the ./inputs path. The virtual environment is best constructed within an Anaconda Powershell prompt. To initiate the envrionment after forking the repository, open an Anaconda Powershell prompt, change the local directory path to the ./env path, then execute the command: "conda env create -f environment.yml"
+Installation and usage of this repository requires an account on Google Earth Engine in order to access the Sentinel-1 data. As of 25 April, area of interests (AOIs) are ingested into the workflow through a ```json.load()``` function. The json files are located within the ./inputs path. The virtual environment is best constructed within an Anaconda Powershell prompt. To initiate the envrionment after forking the repository, open an Anaconda Powershell prompt, change the local directory path to the ./env path, then execute the command: "conda env create -f environment.yml"
 - Project requirements/dependencies: ![environment.yml](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml)
 - Google Earth Engine account access
+
+## Running the Workflow
+Begin by opening an Anaconda Powershell or similiar python command prompt on your computer. Activate the ![earth-analytics environment](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml) by typing ```conda activate earth-analytics```. Once activated, open a Jupyter notebook in the IDE of your choice (e.g., VSCode, Spyder, or PyCharm). Conversely, you can type ```jupyter notebook``` at the Powershell prompt. This will open jupyter notebook in a browser tab. Navigate to the ![Mitchell_Manak_Landslide_Detecting_Changes.ipynb](https://github.com/mthomp89/landslide-detect/blob/main/Mitchell_Manak_Landslide_Detecting_Changes.ipynb) file located at the root directory of this repository. Run the notebook by selecting earth-analytics Kernel from the menu bar and then Restart & Run All. The notebook is formatted to inform the reader of processes within each code block as well as the overall current status of the project.
 
 ## Project Status
 Project is: _in progress_  
