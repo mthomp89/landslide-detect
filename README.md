@@ -1,7 +1,7 @@
 ![Banner](https://github.com/mthomp89/landslide-detect/blob/main/banner.png)
 
 # Mapping Landslide Activity in SAR Imagery
-> Purpose of this project is to evaluate the effectiveness of Synthetic Aperture Radar in mapping surface damage caused by landslides in reported locations. 
+> Purpose of this project is to evaluate the effectiveness of Synthetic Aperture Radar in mapping surface damage caused by landslides in reported locations. We also intend for this project to help enhance the understanding of detecting, measuring, and visualizing landslide locations on a large scale. 
 
 
 ## Table of Contents
@@ -10,16 +10,18 @@
 * [Example Data](#example-data)
 * [Workflow](#workflow)
 * [Installation](#installation)
+* [Running the Workflow](#running-the-workflow)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#project-contacts)
+* [Citations](#citations)
 * [License](#license)
 
 
 ## General Information
 - This project is built upon a previously developed low-accuracy large spatial scale landslide database. Space-based SAR imagery will be utilized in order to improve the accuracy of landslide detection. This is a capstone project in the University of Colorado-Boulder Earth Analytics certifcation program. 
 - Predicting  landslides is challenging  due to the many variables that should be considered when trying to identify what triggered a landslide. There is a need to better identify landslide locations across a large spatial scale. Can combining a low-accuracy large spatial scale landslide database with SAR imagery  improve the accuracy of landslide detection across a global scale?
-- utilize human-assisted, programmatic, and possibly machine learning methods to identify landslides from satellite imagery. We hope that this will bridge the gap with landslide event detection and future event prediction. 
+- Utilize human-assisted, programmatic, and possibly machine learning methods to identify landslides from satellite imagery. We hope that this will bridge the gap with landslide event detection and future event prediction. 
 
 
 ## Data Sources
@@ -52,9 +54,12 @@
 ![Workflow](https://github.com/mthomp89/landslide-detect/blob/main/doc/workflow.png)
 
 ## Installation 
-Installation and usage of this repository requires an account on Google Earth Engine in order to access the Sentinel-1 data. As of 25 April, area of interests (AOIs) are ingested into the workflow through a json.load() function. The json files are located within the ./inputs path. The virtual environment is best constructed within an Anaconda Powershell prompt. To initiate the envrionment after forking the repository, open an Anaconda Powershell prompt, change the local directory path to the ./env path, then execute the command: "conda env create -f environment.yml"
+Installation and usage of this repository requires an account on Google Earth Engine in order to access the Sentinel-1 data. As of 25 April, area of interests (AOIs) are ingested into the workflow through a ```json.load()``` function. The json files are located within the ./inputs path. The virtual environment is best constructed within an Anaconda Powershell prompt. To initiate the envrionment after forking the repository, open an Anaconda Powershell prompt, change the local directory path to the ./env path, then execute the command: "conda env create -f environment.yml"
 - Project requirements/dependencies: ![environment.yml](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml)
 - Google Earth Engine account access
+
+## Running the Workflow
+Begin by opening an Anaconda Powershell or similiar python command prompt on your computer. Activate the ![earth-analytics environment](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml) by typing ```conda activate earth-analytics```. Once activated, open a Jupyter notebook in the IDE of your choice (e.g., VSCode, Spyder, or PyCharm). Conversely, you can type ```jupyter notebook``` at the Powershell prompt. This will open jupyter notebook in a browser tab. Navigate to the ![Mitchell_Manak_Landslide_Detecting_Changes.ipynb](https://github.com/mthomp89/landslide-detect/blob/main/Mitchell_Manak_Landslide_Detecting_Changes.ipynb) file located at the root directory of this repository. Run the notebook by selecting earth-analytics Kernel from the menu bar and then Restart & Run All. The notebook is formatted to inform the reader of processes within each code block as well as the overall current status of the project.
 
 ## Project Status
 Project is: _in progress_  
@@ -70,12 +75,16 @@ Project is: _in progress_
 - We will be continuing a weekly-meeting setup throughout the sememster and into the summer.  
 
 ## Room for improvement
-- We can be better about communicating where we are at with our project with eachother, but version control will help with this. 
+- Look into Google Earth Engine more and make sure we are leveraging all of their tools the best way that we can. 
+- Look at our code and really determine ways that it can be more "DRY". 
+- Start discussing our visions for the final product and how we would like our visuals to look. 
 
 ## To Do:
 - Get our code to work for major verified landslide sites.
 - Continue to clean our code up to make it as reproducible as possible. 
-- Discuss summer session plans
+- Recreate our current data frame to be a geodata frame. 
+- Dive deep into our function that creates a buffer around each verified center point of our landslides data frame. 
+
 
 ## Acknowledgements
 - This project was inspired by Dr. Elsa Culler, CU Boulder Earth Lab
@@ -93,6 +102,8 @@ Project is: _in progress_
 - [@Mitch Thompson](mailto:mitchell.thompson-1@colorado.edu)
 - [@Elsa Culler](mailto:eculler@gmail.com)
 
+## Citations
+- Our Github is currently private and we intend to keep it private until the end of the summer course. We will be linking Zenodo with our Git Hub repository to ensure that our code is visible and citable! 
 
 ## License
 This project is open source and available under the [Apache License 2.0](https://github.com/mthomp89/landslide-detect/blob/main/LICENSE).
