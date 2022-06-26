@@ -23,16 +23,20 @@ def create_dataframe(data_file):
         sorted by index
     """
 
-    gdf = gpd.read_file(
-        data_file, index_col='slide.id', parse_dates=['slide.date']).sort_values(by='slide.id')
-    gdf = gdf.set_index('slide.id')
+    gdf = gpd.read_file(data_file,
+                        index_col='slide.id',
+                        parse_dates=['slide.date'])
+
+    gdf = gdf.drop(['slide.index'], axis=1)
+
     # Convert to DatTime object
     gdf['slide.date'] = pd.to_datetime(gdf['slide.date'])
+    gdf['slide.date'] = gdf['slide.date'].dt.date
 
     # Insert columns for date range
-    gdf.insert(loc=1, column='pre_event',
+    gdf.insert(loc=2, column='pre_event',
                value=gdf['slide.date'] - pd.Timedelta(days=180))
-    gdf.insert(loc=2, column='post_event',
+    gdf.insert(loc=3, column='post_event',
                value=gdf['slide.date'] + pd.Timedelta(days=180))
 
     # Add event point column as tuple
