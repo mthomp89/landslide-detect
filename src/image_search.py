@@ -16,6 +16,13 @@ def image_search(gdf):
     
     """
 
+    import ee
+    # Trigger the authentication flow.
+    ee.Authenticate()
+
+    # Initialize the library.
+    ee.Initialize()
+
     # Set empty list
     results = []
     

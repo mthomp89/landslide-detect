@@ -1,0 +1,258 @@
+id,datetime,location,type,trigger,size,lon,lat
+8321,9/21/15 0:00,"Birken, BC, Canada",landslide,downpour,medium,-122.6205,50.479
+7757,12/7/15 18:00,Edmonds,mudslide,rain,medium,-122.3746,47.7339
+8596,10/4/15 23:00,"Between 3rd and 7th Ave, Coast Highway, Laguna Beach",mudslide,rain,medium,-117.7431,33.5006
+7762,12/9/15 15:00,Woodland,mudslide,rain,medium,-122.7759,45.942
+8678,10/8/15 0:00,between Fort Davis and Fort Davis State Park,rock_fall,flooding,medium,-103.911,30.6025
+9013,12/9/15 0:00,I-5 near Portland border,rock_fall,flooding,medium,-122.6573,45.7326
+9123,12/27/15 0:00,Highway 10 near Peyton���s Place,rock_fall,downpour,medium,-94.9213,36.0281
+7753,11/16/15 0:00,Washougal : 50-mile (80-km) stretch of Interstate 84 that authorities declared impassible into midday Wednesday.,mudslide,rain,large,-122.1529,45.5737
+9049,12/9/15 0:00,I-90 just west of the pass,landslide,snowfall_snowmelt,medium,-121.6707,47.4427
+8337,9/20/15 0:00,"Birken in Squamish-Lillooet, BC, Canada",debris_flow,downpour,medium,-122.7105,50.4729
+8021,9/8/15 11:45,"Zoo Fwy, Wisconsin",mudslide,rain,medium,-88.0271,43.024
+8115,9/11/15 0:00,"Dry Straits Road, Alaska",rock_fall,rain,medium,-132.6394,56.6215
+7755,11/17/15 0:00,Skykomish,mudslide,rain,medium,-121.225,47.717
+9014,12/9/15 0:00,SR 2 just west of Leavenworth,mudslide,flooding,medium,-120.6271,47.5881
+8728,10/11/15 0:00,Broadmoor Bluffs neighborhood,landslide,rain,large,-104.8318,38.7612
+7760,12/8/15 23:00,Burien,landslide,rain,medium,-122.3633,47.488
+7392,12/13/15 19:45,Interstate 5 in the Fort Tejon area,mudslide,downpour,medium,-118.8962,34.8813
+8992,12/7/15 0:00,Northwest Cornelius Pass,landslide,flooding,medium,-122.875,45.5803
+9009,12/8/15 15:00,Highway 2 west of Stevens Pass,mudslide,downpour,medium,-121.0968,47.7471
+9118,12/24/15 15:00,Highway 42 near the border of Coos and Douglas counties,landslide,rain,medium,-123.8241,42.9646
+8123,9/15/15 15:30,"American Fork Canyon, State Route 92 and SR 144 intersection off the Alpine Loop",mudslide,downpour,medium,-111.662,40.4537
+9015,12/9/15 0:00,US 12 between Naches and Packwood,debris_flow,flooding,medium,-121.171,46.647
+8896,11/3/15 19:00,Highway 243 at Vista Grande Road,landslide,downpour,medium,-116.8176,33.8453
+9045,12/11/15 0:00,Jesus Maria Road and Whiskey Slide Road,debris_flow,rain,medium,-120.5983,38.2897
+8338,9/20/15 0:00,"Birken in Squamish-Lillooet, BC, Canada",debris_flow,downpour,medium,-122.7103,50.4729
+9047,12/11/15 0:00,Jesus Maria Road and Whiskey Slide Road,debris_flow,rain,medium,-120.5983,38.2897
+7856,12/9/15 0:00,Tumwater Canyon west of Leavenworth,mudslide,rain,medium,-120.682,47.5857
+8741,10/16/15 0:00,San Francisquito Canyon Road,mudslide,flooding,large,-118.4938,34.5587
+7929,9/4/15 0:00,Featherville,landslide,rain,medium,-115.2605,43.6091
+9016,12/9/15 0:00,Between Everett and Seattle,mudslide,rain,medium,-122.1839,47.7124
+8925,11/8/15 0:00,"Gold Bluffs Beach in Orick, CA",landslide,rain,medium,-124.0682,41.3842
+9614,10/15/15 0:00,State Route 58 in Kern County,debris_flow,downpour,medium,-118.4825,35.1792
+9088,12/18/15 0:00,Santa Road,landslide,rain,medium,-124.0743,44.0434
+8743,10/16/15 0:00,Lake Elizabeth,mudslide,flooding,large,-118.4041,34.6685
+9061,12/14/15 23:00,Camas,mudslide,continuous_rain,medium,-122.4371,45.6028
+7764,12/21/15 9:00,Florence,landslide,rain,medium,-124.0097,44.1646
+9018,12/9/15 0:00,Between Everett and Seattle,unknown,rain,medium,-122.1839,47.7124
+9143,12/28/15 18:00,"US 431, south of Rockledge Road",landslide,rain,medium,-86.5292,33.2334
+9021,12/9/15 0:00,Scappoose-Vernonia Highway,mudslide,flooding,medium,-123.011,45.8346
+8945,11/13/15 0:00,"Cougar Mountain in Issaquah,  Talus Drive and Shangri-La Way Northwest",landslide,rain,large,-122.073,47.5328
+9064,12/15/15 23:00,Kalama,landslide,downpour,medium,-122.8422,46.01
+8946,11/14/15 0:00,between Tacoma and Olympia,mudslide,rain,medium,-122.6066,47.1017
+9033,12/9/15 0:00,Rimrock Lake,rock_fall,flooding,medium,-121.1875,46.6437
+7761,12/9/15 9:00,Tillamook,landslide,continuous_rain,medium,-123.8466,45.428
+8993,12/7/15 0:00,"Northwest Cornell Road, Portland",landslide,flooding,medium,-122.7701,45.5287
+9005,12/8/15 0:00,between Seattle and Everett,landslide,downpour,medium,-122.3288059,47.87110995
+7754,11/16/15 0:00,Kelso,mudslide,rain,medium,-122.9199,46.2128
+7534,11/29/15 0:00,Near the twin bridges on the Tryon side of 176,rock_fall,rain,medium,-82.3216,35.2207
+8422,9/29/15 0:00,Back Creek Orchard Rd and Countrywood Drive,mudslide,rain,medium,-80.111,37.1873
+8421,9/28/15 12:00,Walmart in Breathitt County,rock_fall,rain,medium,-83.3614,37.5513
+8742,10/16/15 0:00,Lake Hughes Road,mudslide,flooding,large,-118.5561,34.5784
+8961,11/17/15 0:00,SR 411 several miles north of Kelso,landslide,rain,medium,-122.889,46.2567
+9967,7/1/17 14:33,Mudslide / debris flow at railroad berm damages homes,debris_flow,downpour,medium,-72.34106092,43.65859938
+9734,5/20/17 13:34,Big Sur Landslide,landslide,rain,very_large,-121.4323838,35.86562803
+9806,5/19/17 20:14,"Rockslide on Highway 20, WY",rock_fall,rain,medium,-108.1852766,43.51364004
+9844,6/19/17 13:10,Significant mudslide by Sheep Creek Bridge,mudslide,rain,large,-122.2792711,51.97686189
+9065,6/15/16 0:00,"Highway 29 approx 12 km north/east of Hudson���s Hope, British Columbia, Canada",mudslide,downpour,medium,-121.8022,56.1127
+9488,8/29/16 0:00,exit 297 on Interstate 25 near Glorieta,rock_fall,downpour,medium,-105.785,35.5722
+9534,9/29/16 0:00,"Highway 99, 15 kilometres north of Lillooet",landslide,rain,medium,-121.859,50.8267
+7564,3/12/16 20:30,Pulga,rock_fall,rain,medium,-121.4519,39.7958
+9176,1/6/16 0:00,101 Freeway in Ventura County,debris_flow,rain,medium,-119.0169,34.2157
+9114,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0216,37.9939
+9540,10/5/16 9:30,Highway 14A on the Lovell side of the Big Horn Mountains,landslide,rain,medium,-107.9215,44.7947
+7538,1/7/16 5:55,Highway 140  between El Portal and Yosemite Valley,rock_fall,rain,medium,-119.7269,37.6954
+7889,6/21/16 23:00,"El Portal, Highway 140 near the entrance to Yosemite National Park",debris_flow,downpour,medium,-119.7826,37.6745
+7555,3/11/16 0:00,Route 1 north of Westport,landslide,rain,medium,-123.7976,39.6942
+9610,10/15/16 0:00,"South Lakeshore Road, Chelan",mudslide,rain,medium,-120.2137,47.919
+9194,1/8/16 1:30,Highway 99 near Horseshoe Bay,rock_fall,rain,medium,-123.2665,49.3747
+7536,2/16/16 15:00,Tyee Access Road,rock_fall,rain,medium,-123.5684,43.433
+7922,6/25/16 9:00,"Caddy Lake, 140 kmeast of Winnipeg, Canada",landslide,downpour,large,-95.2098,49.8063
+9237,1/21/16 9:20,9 miles north of downtown Seattle,mudslide,rain,medium,-122.3856,47.7651
+9112,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0336,37.9979
+9589,9/26/16 23:00,"Indian Creek Road, parallel to Highway 66",mudslide,downpour,medium,-94.026,44.1476
+7737,6/3/16 0:00,Logan Pass,landslide,rain,medium,-113.7718,48.7489
+9113,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0294,37.9948
+9236,6/3/16 8:00,"Lakefront Residences, Granbury, Texas, USA",riverbank_collapse,rain,medium,-97.7881,32.4399
+9332,2/24/16 23:00,Thornburg Road,landslide,rain,medium,-80.0813,40.4372
+9116,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.012,37.9933
+7569,3/12/16 0:00,Stewarts Point-Skaggs Springs Rd,landslide,rain,medium,-123.3792,38.6498
+9070,7/19/16 15:00,"US 97, six miles north of Chelan, Washington, USA",mudslide,downpour,medium,-119.9177,47.8885
+9394,4/22/16 0:00,"Oak Trail parallel to Bliss Road near Hixon Forest, La Crosse, Wisconsin, USA",mudslide,downpour,large,-91.2105,43.8156
+9110,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.044,38.0072
+9385,3/11/16 9:00,Fort Bragg,mudslide,rain,medium,-123.8033,39.4416
+9378,5/11/16 18:00,"Across from Save-A-Lot, Warwood, West Virginia, USA",mudslide,downpour,medium,-80.7009,40.1031
+9117,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0364,38.0008
+9109,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0462,38.009
+9653,10/16/16 0:00,Big Hill water treatment plant,mudslide,downpour,medium,-120.3454,38.0455
+9157,1/5/16 0:00,Crescent Valley,mudslide,rain,medium,-118.5393,34.3515
+9662,10/21/16 18:00,U.S. 119 about 10 miles from Roane County High School,landslide,downpour,medium,-81.3907,38.6725
+9072,7/19/16 0:00,"McNeil Canyon Road, Douglas County, Washington, USA",mudslide,downpour,medium,-119.9011,47.8311
+7570,3/11/16 23:00,Westside Rd near Hacienda,landslide,rain,medium,-122.9237,38.5117
+7572,3/13/16 0:00,Calistoga Rd near Gates Rd,landslide,rain,medium,-122.6475,38.5374
+9278,5/31/16 0:00,"Stemmons Freeway Frontage road near American Airlines Center, Dallas, Texas, USA",mudslide,downpour,medium,-96.8139,32.7913
+7568,3/14/16 0:00,Annapolis Rd 2 �_ miles in from State Hwy 1,rock_fall,rain,medium,-123.3974,38.7164
+9642,10/16/16 15:00,Reds Meadow Valley Road,mudslide,rain,medium,-119.076,37.6141
+9592,9/23/16 0:00,"Victory, Wisconsin",mudslide,downpour,medium,-91.2132,43.486
+7672,5/2/16 14:45,train tracks in Borderland,landslide,downpour,medium,-82.3079,37.7123
+8889,7/7/16 0:00,"Route 161, St. Francis, Maine, USA",mudslide,rain,medium,-68.9434,47.1496
+9446,8/7/16 0:00,County Road 201 in the Animas Valley,debris_flow,rain,medium,-107.8385,37.4198
+9107,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0511,38.0131
+9046,7/7/16 0:00,"Greenbrier River Trail, near milepost 13, West Virginia, USA",landslide,continuous_rain,very_large,-80.3442,37.8849
+8111,6/24/16 0:00,"Richwood, West Virginia, USA",debris_flow,downpour,medium,-80.5293,38.2217
+7834,6/20/16 16:50,US 285 near Bailey,mudslide,downpour,medium,-105.4724,39.4078
+9177,6/2/16 0:00,"Bent Mountain Surface Mines near Meta, Pike County, Kentucky",mudslide,downpour,large,-82.4423,37.577
+9493,9/1/16 0:00,US 60 along milepost 289 to 299,unknown,downpour,medium,-110.5052,33.7946
+9225,1/15/16 15:00,CA 1,rock_fall,rain,medium,-121.7749,36.741
+9063,6/15/16 0:00,"Peace River, town of Peace River, Alberta, Canada",mudslide,downpour,large,-117.2679,56.2246
+9174,1/6/16 0:00,Camarillo Springs,mudslide,downpour,medium,-118.998,34.1941
+7556,3/11/16 0:00,Occidental Road at Green Hill Road,landslide,rain,medium,-122.8921,38.4115
+9214,7/19/16 12:00,"Oldhorn Moutain, Alberta, Canada",rock_fall,rain,large,-118.175,52.6843
+9151,7/22/16 0:00,"Saint-Fulgence, Qu��bec, Canada",landslide,downpour,medium,-70.901,48.4526
+9187,1/7/16 15:00,above the 1800 block of Roeder Avenue across from Squalicum Marina,mudslide,rain,medium,-122.4967,48.7583
+7523,2/18/16 15:00,"milepost 39, State Highway 14",landslide,rain,medium,-115.6031,45.8288
+9108,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0488,38.0115
+10032,7/11/17 21:47,Cassville rock slide,landslide,rain,medium,-90.9992342,42.72187313
+8120,6/23/16 0:00,"4868 Scenic Highway, Nicholas County, West Virginia, USA",mudslide,rain,medium,-80.7427,38.3529
+9641,10/16/16 17:00,Highway 26 about a half-mile east of Montgomery Drive,mudslide,downpour,medium,-120.6609,38.3139
+9353,8/2/16 0:00,"Highway 12, 30 km south of junction with Highway 99 at Lillooet, British Columbia",mudslide,rain,medium,-121.7,50.4868
+9590,9/27/16 0:00,Highway 169,mudslide,rain,medium,-94.0658,44.1527
+8343,7/5/16 6:00,"Grauwyler Road,  eastbound Texas 183 near Loop 12, Irving, Texas, USA",mudslide,downpour,large,-96.8975,32.834
+9416,3/14/16 0:00,Morgana,mudslide,continuous_rain,medium,-122.1239,37.844
+7735,5/28/16 0:00,Blue River Street close to the intersection with Oldham Street,rock_fall,downpour,medium,-94.5226,38.9913
+9115,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0164,37.9926
+9111,7/20/16 14:30,"Highway 145 between Sawpit and Placerville, San Miguel County, Colorado, USA",mudslide,downpour,medium,-108.0372,38.0021
+9306,5/24/16 12:00,"Going-to-the-Sun Road about two miles north of Apgar Campground, Glacier National Park, Montana, USA",mudslide,downpour,medium,-113.9591,48.5431
+9104,7/18/16 0:00,"Mount Adams, Washington, USA",rock_fall,snowfall_snowmelt,medium,-121.4788,46.2078
+10034,9/20/16 14:24,Balligomingo Road Mudslide,mudslide,rain,medium,-75.326559,40.070736
+9541,10/5/16 10:00,"south of Northfield, VT",landslide,rain,medium,-72.6672,44.1292
+10164,12/10/16 14:22,Rockslide near Boulder Creek,rock_fall,rain,medium,-122.122693,37.126455
+10136,1/22/17 19:39,Highway 198 Mud and Rockslides between Fresno and Monterey Counties,debris_flow,continuous_rain,medium,-120.3895855,36.11129987
+10133,2/23/17 20:51,Fremont Hall Mudslide Closes Dorm,mudslide,rain,medium,-120.65539,35.300372
+10209,1/10/17 16:56,Highway 128 Mudslide near Chalk Hill Road,mudslide,downpour,medium,-122.7574041,38.63990848
+10144,1/4/17 19:12,Soquel San Jose Road Mudslides,mudslide,downpour,medium,-121.9423608,37.07743124
+10205,1/22/17 19:39,Bridgeway Blocked by Landslide in Sausalito,landslide,downpour,medium,-122.4968041,37.86317238
+10173,1/24/17 21:52,Scenic Drive Landslide in La Honda Forces Residents to Evacuate,landslide,rain,medium,-122.265628,37.31941622
+10149,2/13/17 15:32,Hillside Mudslide south of Glenwood Drive on Highway 17,mudslide,rain,medium,-122.0134418,37.04629251
+10158,2/28/17 17:35,San Lorenzo Valley Landslide Cuts Off Water Supply,landslide,rain,medium,-122.154441,37.196704
+10159,2/24/17 17:31,Skyline-to-the-Sea Trail 400-yard Landslide in Widow Maker Event,landslide,rain,medium,-122.2348048,37.17394985
+10245,1/11/17 18:34,Morton Road Washes Away near Alta Exit of I-80,earth_flow,rain,medium,-120.8095385,39.20099639
+10176,2/20/17 14:46,Niles Canyon Road 4-mile Mudslide,mudslide,rain,medium,-121.9302567,37.59479437
+10220,4/20/17 17:55,Landslide near Bridges Creek,landslide,downpour,medium,-123.7557456,39.90714161
+10219,1/11/17 14:45,Highway 128 Rockslides,rock_fall,rain,medium,-122.056666,38.51835931
+10138,1/6/17 16:07,Elkhorn Road Landslide between Walker Valley Road and Elkhorn Slough Foundation,landslide,rain,medium,-121.7232875,36.81539141
+10244,2/10/17 20:43,I-80 Mudslide at Truckee,mudslide,rain,medium,-120.4235534,39.32151816
+10130,1/3/17 19:12,Highway 1 Landslides all across Ragged Point to Fuller's Point,landslide,rain,medium,-121.4896698,35.98028292
+10162,2/10/17 20:02,Highway 35 Washout Mudslide near Las Cumbres Road,mudslide,rain,medium,-122.0672826,37.21201324
+10155,1/9/17 15:19,Highway 9 Landslide at Glengarry Road,landslide,rain,medium,-122.0650416,37.03155782
+10195,2/8/17 16:16,"Manor Hill Home Slammed by Mudslide, Woman and 4-year-old Escape",mudslide,rain,medium,-122.5988299,37.99222287
+10218,2/17/17 21:26,Highway 128 Rock and Mudslides near Lake Berryessa Dam,mudslide,rain,medium,-122.1044658,38.51175925
+10132,1/6/17 18:08,Highway 41 Mudslide near Morro Bay,mudslide,rain,medium,-120.7765753,35.42801327
+10171,2/15/17 16:47,Alambique Trail Closure due to Mudslides,mudslide,rain,medium,-122.2765248,37.39806804
+10063,7/2/16 12:55,Mudslide closes Highway 837,mudslide,rain,medium,-112.911742,51.575712
+10231,12/15/16 14:22,Landslide on Highway 299,landslide,rain,medium,-122.077642,40.727305
+10148,2/6/17 15:32,Highway 17 Mudslide near Vine Hill Road,mudslide,rain,medium,-121.9805946,37.07794252
+10151,1/9/17 15:19,Highway 17 300-foot section of Hillside Blocks Vine Hill Road,landslide,rain,medium,-121.9782751,37.08035822
+10146,1/18/17 21:23,Upper Zayante Road Mudslide Washed Out Cliff near Highway 35,mudslide,continuous_rain,medium,-122.0185569,37.14832241
+10177,3/1/17 20:30,Crow Canyon Road Mudslide in Castro Valley,mudslide,rain,medium,-122.025979,37.761358
+10182,2/8/17 21:15,200-ft Landslide Crashes into Home on Van Tassel and Sunnyvale Lane in Orinda,landslide,rain,medium,-122.1881147,37.9146524
+10212,1/9/17 16:56,Hillside Gave Way Above Santa Rosa Avenue and Old Monte Rio Road in Guerneville,mudslide,downpour,medium,-123.0182724,38.48712641
+10221,4/26/17 13:17,Landslide 6 miles north of Leggett continues to slip (above HWY-101),landslide,rain,medium,-123.7495218,39.90752824
+10185,1/11/17 17:02,Alhambra Valley Road Sinkhole near Pinole Creek,mudslide,flooding,medium,-122.2424441,37.97157094
+10121,3/5/17 16:52,New Camaldoli Hermitage Monks Trapped by Mudslides,mudslide,rain,medium,-121.534139,36.026196
+10135,1/6/17 17:02,Highway 41 Closed Indefinitely from Mudslide,landslide,rain,large,-120.7711518,35.42818822
+10235,3/7/17 16:30,Fenders Ferry Road Impassable Rock Slide near Madrone Campground,rock_fall,downpour,medium,-122.110964,40.91213877
+10127,12/15/16 14:22,Rockslide on Highway 1 near Ragged Point,translational_slide,rain,medium,-121.323815,35.770582
+10120,1/6/17 18:08,Multiple Rockslides along Highway 1 near Ragged Point,rock_fall,rain,medium,-121.3288786,35.77900132
+10214,2/24/17 20:15,Morgan Territory Road Collapse Strands 100 people,mudslide,rain,medium,-121.871398,37.890359
+10239,12/12/16 14:22,Rockslide on Highway 49,landslide,rain,medium,-121.108961,39.367245
+10153,2/7/17 19:34,Felton Home Destroyed in Mudslide into Shingle Mill Creek,mudslide,rain,medium,-122.0848471,37.03845686
+10241,2/10/17 16:25,South Yuba Canal Landslide in Bear Valley,landslide,downpour,medium,-120.686333,39.310563
+10142,12/10/16 14:22,Mudslide damages deck of Soquel home,mudslide,rain,large,-121.93556,37.018892
+10288,1/24/17 20:14,Mudslide behind Lonesome Pine Country Club,landslide,downpour,medium,-82.67461254,36.8837723
+10123,3/8/17 16:55,Pfeiffer Canyon Bridge Failure from Landslide,landslide,rain,medium,-121.7747764,36.23912968
+10125,12/16/16 14:35,Multiple Rockslides on HWY 1 on a 36-mi stretch,rock_fall,flooding,medium,-121.501461,36.000259
+10247,1/8/17 19:12,Mt Rose Highway Mudslide between Incline and Galena,mudslide,rain,medium,-119.9142097,39.30552057
+10484,3/27/17 15:09,Deep Creek Landslide into Peachland's water source,landslide,rain,medium,-119.801875,49.756601
+10377,2/10/17 16:48,Highway 50 Mudslide near Pollock Pines at Ice House Road,mudslide,rain,medium,-120.4499206,38.77083069
+10524,4/15/17 13:34,Landslides on HWY-20 near Twisp,landslide,continuous_rain,medium,-120.0729447,48.34711783
+10325,3/25/17 14:24,North Kaibab Trail Rockslide,rock_fall,downpour,medium,-112.032096,36.187845
+10395,2/9/17 23:12,Whitney Portal Road Major Rockfall,rock_fall,snowfall_snowmelt,large,-118.22276,36.592541
+10682,1/17/17 20:58,646 South Main Street Businesses Evacuated by Mudslide,mudslide,rain,medium,-81.48218355,36.411747
+10351,2/22/17 16:54,I-5 Rock Slide at Siskiyou Summit,rock_fall,snowfall_snowmelt,medium,-122.6347989,42.13381148
+10466,2/15/17 21:01,Highway 8 Mudslide near Spences Bridge,mudslide,rain,medium,-121.2386985,50.36554226
+10549,1/9/17 18:34,East Beaver Hill Lane Landslide in Coquille,landslide,rain,large,-124.3049956,43.20365429
+10497,3/18/17 14:24,Kootenay Pass Mudslides and Rockslides,mudslide,rain,medium,-117.0382904,49.06108608
+10331,3/1/17 16:06,Debris Flow across Tempe Town Lake,debris_flow,snowfall_snowmelt,medium,-111.925961,33.431515
+10487,7/6/17 13:16,Landslide near Crescent Beach,landslide,rain,medium,-119.6632642,49.62223265
+10548,1/22/17 19:44,Highway 36 Second Landslide at Milepost 25.2 near Triangle Lake,landslide,rain,medium,-123.5759976,44.15797479
+10302,5/2/17 13:22,Landslide on Rt. 20 in Wind River Canyon,landslide,rain,medium,-108.1901238,43.54829
+10350,1/16/17 19:15,Galice Road Rock Slide at Milepost 13,rock_fall,rain,medium,-123.593824,42.57651795
+10627,3/16/17 14:10,Southwest Dash Point Road Mudslide,mudslide,rain,medium,-122.368876,47.325353
+10623,2/9/17 20:43,Private Lane Landslide Damages Home in Maple Valley near Cedar River,landslide,rain,medium,-122.0110634,47.38482082
+10432,2/17/17 19:25,Southbound 15 Freeway Collapse in Landslide at Cajon Pass,landslide,rain,medium,-117.4793337,34.31601832
+10544,1/18/17 19:44,"Highway 36 Landslide west of Triangle Lake, at milepost 24.5",landslide,rain,medium,-123.5898268,44.13859082
+10414,1/24/17 20:56,Topanga Canyon Boulevard Closed between Grand View Drive and Pacific Coast Highway,mudslide,continuous_rain,medium,-118.5849607,34.06239011
+10558,3/15/17 16:46,Kalama River Road blocked by Landslide East of Italian Creek Road,landslide,continuous_rain,medium,-122.738416,46.029522
+10343,5/3/17 13:22,Mudslide badly damages homes in Caseyville,mudslide,downpour,medium,-90.048951,38.60823855
+10323,1/13/17 21:23,Zion Scenic Drive Rock Slide north of the Grotto,rock_fall,rain,medium,-112.9483461,37.26104331
+10570,1/18/17 16:04,NW Newberry Road Landslide in Multnomah County,landslide,downpour,medium,-122.8190661,45.61062404
+10542,2/15/17 15:32,Yingst Road Rock Slide Erodes Road,rock_fall,flooding,medium,-114.5205872,42.63338074
+10598,11/28/16 15:00,Mudslide halts Passenger Rail Service,mudslide,rain,medium,-122.39457,47.802118
+10546,2/16/17 18:40,Highway 36 Landslide West of Triangle Lake,landslide,rain,medium,-123.620023,44.12321599
+10588,4/13/17 13:34,Significant landslide on WA-129,landslide,continuous_rain,large,-117.2441381,46.04343186
+10511,4/9/17 13:34,Landslide on Myrtle Creek Road,landslide,continuous_rain,medium,-116.5300705,48.72384823
+10444,1/9/17 20:35,Highway 18 Rockslide past Castle Rock,rock_fall,downpour,medium,-116.9678174,34.23963205
+10339,9/15/16 14:24,Landslide on Friendship Road,landslide,rain,medium,-95.1472568,39.63843134
+10530,11/22/16 15:00,Landslide in Tillamook Forest,landslide,rain,medium,-123.586208,45.585918
+10372,12/15/16 13:22,Highway 162 in Berry Creek covered in debris after mudslide,mudslide,rain,medium,-121.431598,39.63016
+10634,2/9/17 18:08,State Route 7 Massive Mudslide Slams into Home,mudslide,downpour,medium,-122.2132134,46.71607814
+10475,4/7/17 13:19,Landslide in Shuswap,landslide,rain,medium,-119.235673,50.77712046
+10437,1/12/17 21:23,Melcanyon Road Shut Down from Mudflow from Duarte Hillsides,mudslide,rain,medium,-117.9412065,34.15214903
+10446,1/20/17 14:59,Gilman Springs Road Mudslide near Golden Era Compound,mudslide,rain,medium,-116.9863441,33.83302047
+10494,3/23/17 14:24,New Denver Highway 6 Mudslide,mudslide,rain,medium,-117.3704058,49.98337245
+10375,2/10/17 16:48,Highway 50 Mudslide at Sand Flat,mudslide,rain,medium,-120.324996,38.76486531
+10651,5/3/17 13:22,Landslide damages homes in Mt. Adams,landslide,rain,medium,-84.50067398,39.10578115
+10346,4/2/17 13:19,Multiple landslides along N Washington St.,landslide,downpour,medium,-90.87507319,32.36487904
+10426,2/17/17 22:55,Sand Canyon Road Mudflow in the Sand Canyon Burn Area,mudslide,downpour,medium,-118.4056832,34.380809
+10561,3/31/17 12:57,Massive Landslide Shuts Down Highway 503 In Southwest Washington,landslide,rain,medium,-122.740865,45.915562
+10525,2/16/17 14:17,Washout destroys part of road + car on drive between Lind and Warden,landslide,rain,medium,-118.7098838,46.95593447
+10612,3/16/17 15:47,10th Place SW Landslide in City of Normandy Park,landslide,rain,medium,-122.347205,47.418594
+10389,1/19/17 21:08,Cottonwood Road Landslide near Clavey River Bridge,landslide,snowfall_snowmelt,medium,-120.0516629,37.98298928
+10445,12/16/16 14:35,Mudslide on Bellfower Avenue,mudslide,rain,medium,-116.950975,33.968473
+10645,2/17/17 20:04,North 8th Street Sinkhole in Lynden,landslide,continuous_rain,medium,-122.4604589,48.95184809
+10441,1/22/17 19:39,Hill Collapse on Carbon Canyon Road near Santa Fe Road,mudslide,downpour,medium,-117.835709,33.9225391
+10485,1/6/17 18:30,Renfrew Road Landslide above Highway 97,landslide,snowfall_snowmelt,medium,-119.7586878,49.75158901
+10507,3/21/17 19:32,Boundary County Highway 95 Mudslide on Milepost 498,mudslide,continuous_rain,medium,-116.369756,48.605862
+10439,12/16/16 14:35,Mudslide Near Monrovia Prompted Closure of Elementary School,mudslide,rain,medium,-117.940183,34.149216
+10433,1/20/17 21:23,I-15 Mudslide near Cleghorn Road Causes Gridlock,mudslide,rain,medium,-117.3556802,34.28752918
+10438,1/20/17 20:38,Duarte Mud and Debris Flows from Second of Three Storms,debris_flow,downpour,large,-117.9438775,34.15029849
+10536,3/15/17 18:40,Highway 101 near Nestucca Bend Landslide,landslide,rain,medium,-123.8354432,45.27076031
+10391,2/21/17 16:26,"Slow-moving Big Oak Flat Road Landslide, Impacting 200 ft of Roadway",landslide,snowfall_snowmelt,medium,-119.759662,37.734307
+10399,1/8/17 20:15,Coastal Christian School Mudslide Across the Playground,mudslide,downpour,medium,-120.6067082,35.13748644
+10470,4/27/17 13:17,Landslide destroys part of Eagle Bay Rd,landslide,rain,medium,-119.1263032,50.95048157
+10366,1/10/17 17:02,Oro-Quincy Highway Mudslide in Berry Creek Area,mudslide,downpour,medium,-121.5003975,39.50534156
+10611,1/19/17 21:23,California Avenue SW Landslide from Water Main Break,mudslide,rain,medium,-122.387218,47.52013049
+10427,1/20/17 20:14,Agua Dulce Family Home Destroyed by Mudslide off of Soledad Canyon Road,mudslide,downpour,medium,-118.1995991,34.46134035
+10358,1/10/17 18:34,Highway 62 Avalanche between Munson Valley Road and Pacific Crest Trailhead,snow_avalanche,snowfall_snowmelt,medium,-122.1721601,42.87068
+10521,4/2/17 15:21,Porcupine Bay Road Landslide in Lincoln County,landslide,downpour,large,-118.1639859,47.88398686
+10425,1/20/17 16:04,Sand Canyon and Iron Canyon Road Mud and Debris,mudslide,rain,medium,-118.4148235,34.39411841
+10541,4/24/17 13:22,Multiple landslides on Trail Creek Road,landslide,snowfall_snowmelt,medium,-114.2582904,43.82083244
+10319,2/11/17 19:05,US-189 Mudslide in Provo Canyon near Sundance Turnoff,mudslide,rain,medium,-111.5534648,40.37960204
+10443,2/16/17 19:34,Landslide the Size of Three Football Fields Threatens San Bernardino County,landslide,rain,medium,-116.9345475,34.09901731
+10442,1/9/17 21:20,Highway 18 Rock Slide between Big Bear and Lucerne Valley,rock_fall,downpour,medium,-116.8297837,34.3330795
+10532,1/5/17 19:12,Highway 20 Landslide west of Toledo,landslide,rain,medium,-123.9675087,44.62725474
+10357,12/14/16 14:22,Mudslide Closes Northbound 101 Near Fernbridge,mudslide,rain,medium,-124.210692,40.621303
+10405,2/17/17 17:55,18 Mudslides along Highway 33 between Wheeler Gorge Campground and Santa Barbara,mudslide,rain,medium,-119.2622286,34.58431055
+10554,4/30/17 13:22,Landslide on Salmon Creek Rd,landslide,rain,medium,-122.7979191,46.39692045
+10646,2/18/17 17:46,Chilliwack Vedder Mountain Landslide Forces Evacuation,landslide,rain,medium,-122.006847,49.088067
+10397,1/20/17 21:24,Highway 178 Rockslides in Kern River Canyon,rock_fall,downpour,medium,-118.665478,35.52490704
+10550,1/6/17 15:40,Metlako Falls Overlook Wiped Out in Columbia River Gorge,landslide,snowfall_snowmelt,medium,-121.9011895,45.62895938
+10369,2/7/17 16:23,Highway 70 Rock Slide between Virgilia and Pine Aire,rock_fall,rain,medium,-121.0966666,40.01740913
+10478,5/6/17 13:28,Fatal mudslide in Shuswap,mudslide,rain,medium,-119.1322952,50.81095228
+10312,7/11/17 14:05,Landslide near Aspen Airport closes Highway 82,landslide,downpour,medium,-106.8813681,39.24255184
+10422,1/30/17 19:27,8100 Block Laurel View Drive Mudslide near Crescent Heights Blvd,debris_flow,rain,medium,-118.3671332,34.10195138
+10493,4/18/17 17:47,Landslide causes evacuation of 47 homes in Kalso,landslide,rain,medium,-116.9388675,49.91772889
+10449,12/25/16 16:02,Mudslide in Oceanside,mudslide,rain,medium,-117.3569946,33.20013525
+10456,2/28/17 16:25,Highway 78 Rockslide in Bandy Canyon area,rock_fall,rain,medium,-116.9199524,33.08260792
