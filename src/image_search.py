@@ -1,54 +1,55 @@
-def image_search(gdf):
+def image_search(gdf, start_date, end_date):
     """
     Iterates through a geoDataFrame and searches Google Earth Engine
     based on certain parameters within the geoDataFrame. Buffers central
     geometery search point by 1000 meters, event date by 180 days reciprocal. 
 
-    
+
     Parameters
     ----------
-    data_file : geodataframe
+    data_file : 
+        geodataframe
+        start_date
+        end_date
 
     Returns
     -------
     dataframe
-        appended with imagery timestamplist
-    
+        appended with imagery relative orbit number
+
     """
-
-    import ee
-    # Trigger the authentication flow.
-    ee.Authenticate()
-
-    # Initialize the library.
-    ee.Initialize()
 
     # Set empty list
     results = []
-    
+
     BASE_DATE = ee.Date(gdf['slide.date'])
-    
+
     # Data search in Google Earth Engine
     im_coll = (ee.ImageCollection('COPERNICUS/S1_GRD_FLOAT')
-               .filterBounds(gdf['geometry'])
-               .filter(ee.Geometry.Point.buffer({'distance': 1000}))
-               .filterDate(BASE_DATE, 
-                           BASE_DATE.advance(-180, 'days'), 
-                           BASE_DATE.advance(180, 'days'))
-#                .filter(ee.Filter.eq('orbitProperties_pass', 'DESCENDING'))
-               .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))
-               .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VH'))
+
+               .filterBounds(bbox.ee)
+
+               .filter(ee.Filter.eq('orbitProperties_pass', 'DESCENDING'))
+               .filter(ee.Filter.listContains(
+                   'transmitterReceiverPolarisation', 'VV'))
+               .filter(ee.Filter.listContains(
+                   'transmitterReceiverPolarisation', 'VH'))
+
+                .filterDate(start_date, end_date)
+                
                .map(lambda img: img.set('date', ee.Date(img.date()).format('YYYYMMdd')))
                .sort('date'))
-    timestamplist = (im_coll.aggregate_array('date')
-                            .map(lambda d: ee.String('T').cat(ee.String(d)))
-                            .getInfo())
-    
-    # Add new column to geopandas DataFrame for avaiable data
-    for value in timestamplist:
+
+    orbit_num = (im_coll.aggregate_array('relativeOrbitNumber_start')
+             .getInfo())
+    orbit_num = orbit_num[0]
+    print('The Relative Orbit Number for AOI is: ', orbit_num)
+
+    # Add new column to geopandas DataFrame for available data
+    for value in orbit_num:
         if value == True:
-            results.append(timestamplist)
+            results.append(gdf)
         else:
             results.append('No imagery available')
 
-    return gdf
+    return orbit_num
