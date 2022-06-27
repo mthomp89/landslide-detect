@@ -22,8 +22,6 @@ def image_search(gdf, start_date, end_date):
     # Set empty list
     results = []
 
-    BASE_DATE = ee.Date(gdf['slide.date'])
-
     # Data search in Google Earth Engine
     im_coll = (ee.ImageCollection('COPERNICUS/S1_GRD_FLOAT')
 
@@ -43,9 +41,9 @@ def image_search(gdf, start_date, end_date):
     orbit_num = (im_coll.aggregate_array('relativeOrbitNumber_start')
              .getInfo())
     orbit_num = orbit_num[0]
-    print('The Relative Orbit Number for AOI is: ', orbit_num)
+    # print('The Relative Orbit Number for AOI is: ', orbit_num)
 
-    # Add new column to geopandas DataFrame for available data
+    # Add orbit number column to geopandas DataFrame for available data
     for value in orbit_num:
         if value == True:
             results.append(gdf)
