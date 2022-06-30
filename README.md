@@ -29,7 +29,6 @@
       Link: https://data.nasa.gov/Earth-Science/Global-Landslide-Catalog/h9d8-neg4
       Info: The GLC considers all types of mass movements triggered by rainfall, which have been reported in the media, disaster databases, scientific reports, or other sources. 
       Type: Geospatial data can be downloaded as: KLM, KMZ, Shapefile or GeoJSON
-      
 - [Sentinel-1 SAR]
       Link: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar
       Info: SENTINEL-1 is an imaging radar mission providing continuous all-weather, day-and-night imagery at C-band.
