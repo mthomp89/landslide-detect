@@ -14626,7 +14626,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/locations.jpg" alt="locations.jpg"></p>
+<p><img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/locations.jpg?raw=true" alt="Locations" width="1500"/></p>
 
 </div>
 </div>
@@ -14680,7 +14680,7 @@ Disadvantages of SAR remote sensing are typically binned into three categories: 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Analysis"><center>Analysis</center><a class="anchor-link" href="#Analysis">&#182;</a></h2><p>We sought to know: when and where changes have taken place. In order to do this, we  highlighted statistically significant changes through a series of "tests for change". We gathered in-depth statistical analyses from Earth Engine Python tutorials found <a href="https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-1">here</a>, with an emphasis on the statistical changes outlined in <a href="https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-3">Part 3</a> by by Dr. Mort Canty (Canty, 2019). Moreover, this initial analysis also required the utilization of Google Earth Engine's Basemap layers titled: "USGS NAIP Imagery NDVI" and the 'USGS NAIP Imagery False Color'. The purpose of these image layers is to better see what the landscape looks like so the user could search for "markings" from landslides on the initial maps to see if they can spot a landslide.</p>
-<p><img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/splitmap.gif" alt="splitmap.gif"></p>
+<p><img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/splitmap.gif?raw=true" alt="Splitmap" width="1500"/></p>
 <p>In order to accurately detect land-change due to landslides, we needed to gather information across a time series (k) to determine the changes that occurred as well as acquiring the accurate location information for the landslides, within the bounds of sensor resolution. Statistical tests included pre-calculated <em>P</em> values in _pv_arr_ (shown schematically in Table 1.1 for $k=5$) are then scanned in nested iterations over indices $i$ and $j$ to determine the following thematic change maps:</p>
 <ul>
 <li>cmap: the interval of the most recent change, one band, byte values $\in [0,k-1]$,</li>
@@ -14749,7 +14749,7 @@ Disadvantages of SAR remote sensing are typically binned into three categories: 
 </table>
 <p>A boolean variable <em>median</em> is included in the code. Its purpose is to reduce the speckle effect in no-change regions, which is at least partly a consequence of the uniform distribution of the <em>P</em> values under $H_0$ (see the section <a href="https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-2#a_note_on_p_values">A note on P values</a> in Part 2). If <em>median</em> is <em>True</em>, the <em>P</em> values for each $Q_\ell$ statistic are passed through a $5\times 5$ median filter before being compared with the significance threshold. This is not statistically kosher but probably justifiable if one is only interested in large homogeneous changes, for example flood inundations or deforestation.</p>
 <p>Once ran through our statistical tests, the definite (cyan or light blue) color layers correspond to decreases and increases in intensity of reflectances that the satellite images picked up over a time increment. This blue color change indicates displaced surface on Earth, and in our case a landslide. Our initial tests produced the aforementioned changemap (like the one below) that showed the definite changes over all SAR images 180 days before and 180 days after a landslide event. Our final product is one map of a compilation of four different change maps. Each respective change map represents the result of testing definite change in pixels at different intervals across the SAR images associate with a landslide. This process can be done with all of the landslides identified in our database.</p>
-<p><img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/change.jpg" alt="change.jpg"></p>
+<p><img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/change.jpg?raw=true" alt="Change" width="1500"/></p>
 
 </div>
 </div>
@@ -14762,13 +14762,13 @@ Disadvantages of SAR remote sensing are typically binned into three categories: 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Findings"><center>Findings</center><a class="anchor-link" href="#Findings">&#182;</a></h2><p>When we ran our test, correlation in certain landslide areas seems to be prominent. One location in particular (slide I.D. # 9734, image below) is an area that our change detection map showed a prominent visual correlation.<br>
-<img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/bigsur.jpg" alt="bigsur.jpg"></p>
+<img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/bigsur.jpg?raw=true" alt="BigSur" width="1500"/></p>
 <p>We could see a correlation with slide I.D. # 10588 (image below). The banks around the river clearly show displaced land, and we could see that our final map showed definite changes that correlated with this displacement. 
-<img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/banks.jpg" alt="banks.jpg"></p>
+<img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/banks.jpg?raw=true" alt="Banks" width="1500"/></p>
 <p>While small, slide I.D. # 10532 (image below) also showed a distinct definite pattern of change with a block of cyan color. This did correlate with our landslide database, and also did match the SATELLITE image basemap.
-<img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/smallslide.jpg" alt="smallslide.jpg"></p>
+<img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/smallslide.jpg?raw=true" alt="Smallslide" width="1500"/></p>
 <p>Slide I.D. # 10221 is a prominent landslide visual on the initial AOI SATELLITE image basemap, and also a prominent visual on the initial changes map, however on the final figure, the change did not show. This is possibly an error in the slide image date match for the landslide event.</p>
-<p><img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/noshowfinal.jpg" alt="noshowfinal.jpg"></p>
+<p><img src="https://github.com/mthomp89/landslide-detect/blob/main/doc/noshowfinal.jpg?raw=true" alt="noshowfinal" width="1500"/></p>
 
 </div>
 </div>
