@@ -33,14 +33,6 @@
       Link: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar
       Info: SENTINEL-1 is an imaging radar mission providing continuous all-weather, day-and-night imagery at C-band.
       Type: The SENTINEL-SAFE format wraps a folder containing image data in a binary data format and product metadata in XML. 
-- [Capella Space Open Data Program]
-      Link: https://www.capellaspace.com/
-      Info: Capella aims to provide the most frequent, timely and high-quality SAR imagery products available, accessible through an intuitive self-serve online platform.
-      Type: Capella Space uses Synthetic Aperture Radar (SAR) to capture and track small-scale movements on the surface of the Earth
-- [ICEYE Open Data Program]
-      Link: https://www.iceye.com/
-      Info: ICEYE provides easy and flexible access to Earth observation data.
-      Type: SAR data will be utilized. 
 
 
 ## Example Data
