@@ -52,19 +52,6 @@ Installation and usage of this repository requires an account on Google Earth En
 ## Running the Workflow
 Begin by opening an Anaconda Powershell or similiar python command prompt on your computer. Activate the ![earth-analytics environment](https://github.com/mthomp89/landslide-detect/blob/main/env/environment.yml) by typing ```conda activate earth-analytics```. Once activated, open a Jupyter notebook in the IDE of your choice (e.g., VSCode, Spyder, or PyCharm). Conversely, you can type ```jupyter notebook``` at the Powershell prompt. This will open jupyter notebook in a browser tab. Navigate to the ![Mitchell_Manak_Landslide_Detecting_Changes.ipynb](https://github.com/mthomp89/landslide-detect/blob/main/Mitchell_Manak_Landslide_Detecting_Changes.ipynb) file located at the root directory of this repository. Run the notebook by selecting earth-analytics Kernel from the menu bar and then Restart & Run All. The notebook is formatted to inform the reader of processes within each code block as well as the overall current status of the project.
 
-## Project Status
-Project is: _in progress_  
-
-- Each week we meet on Tuesday to discuss progress on the project on zoom.
-- We have currently worked on a Google Colab Document but are moving our code to Jupyter notebook to have access Version Control on Git Hub.
-- This document will be our workspace as we continue to make edits and progress on our code.
-- Data is uploaded by .csv file through the verified landslide database that was provided to us.
-- We are detecting changes in Sentinel-1 Imagery.
-- We will note changes, especially those due to land-change. The changes will show up as colored pixels.
-- We will be utilizing the a sequential omnibus change detection algorithm initially provided by Google Earth Engine to detect change.
-- The results we find from this sequential change detection using SAR imagery using GEE can then be interpreted, and future work will be determined when we get to them
-- We will be continuing a weekly-meeting setup throughout the sememster and into the summer.  
-
 ## Future Work
 - Continue to investigate Google Earth Engine more and make sure we are leveraging all of their tools the best way that we can. 
 - Iterate over a provided database or spreadsheet file.
