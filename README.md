@@ -65,17 +65,10 @@ Project is: _in progress_
 - The results we find from this sequential change detection using SAR imagery using GEE can then be interpreted, and future work will be determined when we get to them
 - We will be continuing a weekly-meeting setup throughout the sememster and into the summer.  
 
-## Room for improvement
-- Look into Google Earth Engine more and make sure we are leveraging all of their tools the best way that we can. 
-- Look at our code and really determine ways that it can be more "DRY". 
-- Start discussing our visions for the final product and how we would like our visuals to look. 
-
-## To Do:
-- Get our code to work for major verified landslide sites.
-- Continue to clean our code up to make it as reproducible as possible. 
-- Recreate our current data frame to be a geodata frame. 
-- Dive deep into our function that creates a buffer around each verified center point of our landslides data frame. 
-
+## Future Work
+- Continue to investigate Google Earth Engine more and make sure we are leveraging all of their tools the best way that we can. 
+- Iterate over a provided database or spreadsheet file.
+- Look into cross referencing with higher resolution SAR imagery offerred by commercial imaging companies such as ICEYE, Airbus, or Capella Space.
 
 ## Acknowledgements
 - This project was inspired by Dr. Elsa Culler, CU Boulder Earth Lab
